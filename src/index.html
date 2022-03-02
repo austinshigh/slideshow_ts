@@ -2,18 +2,15 @@
 <html>
   <header>
     <meta charset="UTF-8" />
-    <script src="../dist/temperature.js"></script>
+    <script>var exports = {};</script>
+    <script src="../dist/slide_show.js"></script>
+    <link rel="stylesheet" href="styles.css">
   </header>
   <body>
-    <form id="myForm">
-      <label for="input">Temperature:</label><br />
-      <input id="input" name="input" />
-    </form>
-    <div id="f">Click For Celcius to Fahrenheit</div>
-    <div id="c">Click For Fahrenheit to Celcius</div>
-    <br />
-    <div>
-      <div id="result"></div>
+      <div id="slideshow"></div>
+      <img id="image" src="https://i.ibb.co/1RsLnh4/Exterior-Framing.jpg">
+      <button type="button" id="left"> Left </button>
+      <button type="button" id="right"> Right </button>
     </div>
   </body>
 </html>
